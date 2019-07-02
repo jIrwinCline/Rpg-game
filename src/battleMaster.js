@@ -1,8 +1,9 @@
 export class Character {
-  constructor (hp, attack){
-    this.hp = hp,
-    this.attack = attack,
-    this.level = 1
+  constructor (name, hp, attack){
+    this.name = name;
+    this.hp = hp;
+    this.attack = attack;
+    this.level = 1;
     this.life = true;
     this.exp = 0;
   }
@@ -39,8 +40,8 @@ export class Character {
   heal (potion) {
     var i = 0;
     while(this.hp < 100 && i < potion){
-      this.hp++
-      i++
+      this.hp++;
+      i++;
     }
   }
 

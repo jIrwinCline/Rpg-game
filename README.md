@@ -6,3 +6,4 @@
 | with enough exp points, your character will level up | exp 100 | level += 1 |
 | with a certain level, attacks are made stronger | level += 1 | attack += 10 |
 | the character should take damage from enemy attacks | enemy attack 20 | character's hp drops by 20 |
+| the character will heal when taking potions | use potion | character's hp heals by 20 |

@@ -5,8 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Character } from './battleMaster.js'
 
 $(document).ready(function () {
-  let character = new Character(100,50)
-  let monster = new Character(100,20)
+  $('#warrior').click(function() {
+    const warrior = new Character('The Warrior', 100, 50)
+    $('.characters').hide();
+});
 
 
 
