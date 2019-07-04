@@ -1,67 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Battle Master</title>
 </head>
 <body>
-  <div class="jumbotron">
-    <h1>Battle Master</h1>
-  </div>
-  <div class="characters">
-    <div class="card">
-      <div class="card-body">
-        <h3>Click your desired character below:</h3>
+  <div class="c">
+    <div class="main">
+      <div class="header">
+        <a href="#default" class="logo">Battle Master</a>
+        <div class="header-right">
+          <img src="https://cdn1.iconfinder.com/data/icons/outlined-medieval-icons-pack/200/misc_game_combat-512.png" alt="swords">
+          <!-- <a class="btn-info" id="startButton" href="#home">Start Game</a>
+          <a class="btn-danger" id="resetButton" href="#home">Reset</a> -->
+        </div>
       </div>
-    </div>
-    <div class="row" style='width: 1400px;'>
-      <div class="col-md-4 center">
-        <img id='warrior' value='Warrior' src="https://cdn3.iconfinder.com/data/icons/medieval-characters/246/good-characters-006-256.png" alt="warrior">
-      </div>
-      <div class="col-md-4 center">
-        <img id='archer' value='Archer' src="https://cdn3.iconfinder.com/data/icons/medieval-characters/251/good-characters-002-256.png" alt="archer">
-      </div>
-      <div class="col-md-4 center">
-        <img id='wizard' value='Wizard' src="https://cdn3.iconfinder.com/data/icons/medieval-characters/303/good-characters-003-256.png" alt="wizard">
-      </div>
-    </div>
-    <div class="row" style='width: 1400px;'>
-      <div class="col-md-4 center">
+      <div class="characters">
         <div class="card">
-          <div class="card-header">
-            <p><strong>The Warrior</strong></p>
-          </div>
           <div class="card-body">
-            <p><strong>Weapon:</strong> Sword (50 ATK)</p>
-            <br>
-            <p><strong>Defense: </strong> Armor (100 hp)</p>
+            <h3>Click your desired character below:</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 center">
+            <img id='warrior' value='Warrior' src="https://cdn3.iconfinder.com/data/icons/medieval-characters/246/good-characters-006-256.png" alt="warrior">
+          </div>
+          <div class="col-md-4 center">
+            <img id='archer' value='Archer' src="https://cdn3.iconfinder.com/data/icons/medieval-characters/251/good-characters-002-256.png" alt="archer">
+          </div>
+          <div class="col-md-4 center">
+            <img id='wizard' value='Wizard' src="https://cdn3.iconfinder.com/data/icons/medieval-characters/303/good-characters-003-256.png" alt="wizard">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 center">
+            <div class="card">
+              <div class="card-header">
+                <p><strong>The Warrior</strong></p>
+              </div>
+              <div class="card-body">
+                <p><strong>Weapon:</strong> Sword of War (50 ATK)</p>
+                <br>
+                <p><strong>Defense: </strong> Metal Armor (100 hp)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 center">
+            <div class="card">
+              <div class="card-header">
+                <p><strong>The Archer</strong></p>
+              </div>
+              <div class="card-body">
+                <p><strong>Weapon: </strong> Bow & Arrows (60 ATK)</p>
+                <br>
+                <p><strong>Defense: </strong> Leather Plates (90 hp)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 center">
+            <div class="card">
+              <div class="card-header">
+                <p><strong>The Wizard</strong></p>
+              </div>
+              <div class="card-body">
+                <p><strong>Weapon: </strong> Staff of Wizdom (40 ATK)</p>
+                <br>
+                <p><strong>Defense: </strong> Spell of Constitution (120 hp)</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 center">
-        <div class="card">
-          <div class="card-header">
-            <p><strong>The Archer</strong></p>
-          </div>
-          <div class="card-body">
-            <p><strong>Weapon:</strong> Bow & Arrows (60 ATK)</p>
-            <br>
-            <p><strong>Defense: </strong> Leather Plates (90 hp)</p>
-          </div>
+
+    </div>
+    <div class="container game">
+
+    </div>
+    <div class="stats">
+      <div class="card">
+        <div class="card-header center">
+          <p><strong>Stats</strong></p>
         </div>
-      </div>
-      <div class="col-md-4 center">
-        <div class="card">
-          <div class="card-header">
-            <p><strong>The Wizard</strong></p>
-          </div>
-          <div class="card-body">
-            <p><strong>Weapon: </strong> Staff of Wizdom (40 ATK)</p>
-            <br>
-            <p><strong>Defense: </strong> Spell of Constitution (120 hp)</p>
-          </div>
+        <div class="card-body">
+          <p><strong>ATK: </strong></p>
+          <br>
+          <p><strong>HP: </strong></p>
         </div>
       </div>
     </div>
+
   </div>
 </body>
 </html>
